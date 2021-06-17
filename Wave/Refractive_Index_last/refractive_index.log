@@ -1,0 +1,543 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.28)  4 JUN 2021 12:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**refractive_index.tex
+(./refractive_index.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texmf-dist/tex/latex/pythontex/pythontex.sty
+Package: pythontex 2019/09/22 v0.17 execute and typeset Python code and other l
+anguages
+
+(/usr/share/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count187
+)
+(/usr/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\FV@CodeLineNo=\count188
+\FV@InFile=\read2
+\FV@TabBox=\box47
+\c@FancyVerbLine=\count189
+\FV@StepNumber=\count190
+\FV@OutFile=\write3
+)
+(/usr/share/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count191
+\output=\toks16
+\linenoprevgraf=\count192
+\linenumbersep=\dimen139
+\linenumberwidth=\dimen140
+\c@linenumber=\count193
+\c@pagewiselinenumber=\count194
+\c@LN@truepage=\count195
+\c@internallinenumber=\count196
+\c@internallinenumbers=\count197
+\quotelinenumbersep=\dimen141
+\bframerule=\dimen142
+\bframesep=\dimen143
+\bframebox=\box48
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count198
+\c@FV@TrueTabCounter=\count199
+\FV@TabBox@Group=\box49
+\FV@TmpLength=\skip49
+\c@FV@HighlightLinesStart=\count266
+\c@FV@HighlightLinesStop=\count267
+\FV@LoopCount=\count268
+\FV@NCharsBox=\box50
+\FV@BreakIndent=\dimen144
+\FV@BreakIndentNChars=\count269
+\FV@BreakSymbolSepLeft=\dimen145
+\FV@BreakSymbolSepLeftNChars=\count270
+\FV@BreakSymbolSepRight=\dimen146
+\FV@BreakSymbolSepRightNChars=\count271
+\FV@BreakSymbolIndentLeft=\dimen147
+\FV@BreakSymbolIndentLeftNChars=\count272
+\FV@BreakSymbolIndentRight=\dimen148
+\FV@BreakSymbolIndentRightNChars=\count273
+\c@FancyVerbLineBreakLast=\count274
+\FV@LineBox=\box51
+\FV@LineIndentBox=\box52
+\FV@LineWidth=\dimen149
+)
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count275
+\decimalpart=\count276
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(/usr/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks19
+)))
+\pgfopts@list@add@a@toks=\toks20
+\pgfopts@list@add@b@toks=\toks21
+)
+(/usr/share/texmf-dist/tex/latex/newfloat/newfloat.sty
+Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
+)
+(/usr/share/texmf-dist/tex/latex/currfile/currfile.sty
+Package: currfile 2020/09/29 v0.7d Provides the file path elements of the curre
+nt input file
+
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2020/09/29 v0.8a Hooks for input files
+
+(/usr/share/texmf-dist/tex/latex/filehook/filehook-2020.sty
+Package: filehook-2020 2020/09/29 v0.8a Hooks for input files
+))
+\c@currfiledepth=\count277
+)
+\pytx@codefile=\write4
+\openout4 = `refractive_index.pytxcode'.
+
+\c@pytx@FancyVerbLineTemp=\count278
+\c@pytx@py@default@default=\count279
+\c@pytx@pycon@default@default=\count280
+\c@pytx@sympy@default@default=\count281
+\c@pytx@sympycon@default@default=\count282
+\c@pytx@pylab@default@default=\count283
+\c@pytx@pylabcon@default@default=\count284
+)
+(/usr/share/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks22
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count285
+\lst@gtempboxa=\box53
+\lst@token=\toks23
+\lst@length=\count286
+\lst@currlwidth=\dimen152
+\lst@column=\count287
+\lst@pos=\count288
+\lst@lostspace=\dimen153
+\lst@width=\dimen154
+\lst@newlines=\count289
+\lst@lineno=\count290
+\lst@maxwidth=\dimen155
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count291
+\lst@skipnumbers=\count292
+\lst@framebox=\box54
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count293
+\l__pdf_internal_box=\box55
+)
+(./refractive_index.aux)
+\openout1 = `refractive_index.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+
+(./pythontex-files-refractive_index/refractive_index.pytxmcr)
+Package newfloat Info: New float `listing' with options `fileext=lopytx' on inp
+ut line 41.
+\c@listing=\count294
+\newfloat@ftype=\count295
+Package newfloat Info: float type `listing'=8 on input line 41.
+LaTeX Info: Redefining \celsius on input line 41.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 41.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 41.
+Package gensymb Info: Using \Omega for \ohm on input line 41.
+
+Package gensymb Warning: Not defining \micro.
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count296
+\scratchdimen=\dimen156
+\scratchbox=\box56
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen157
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks25
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/share/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+\c@lstlisting=\count302
+
+(./pythontex-files-refractive_index/refractive_index.pytxpyg) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\c@pytx@py@default@default@line=\count303
+
+Overfull \hbox (3.61209pt too wide) in paragraph at lines 92--93
+[]\OT1/cmr/m/n/14.4 When fo-cus is cor-rect, start but-ton is ac-ti-vated. Then
+
+ []
+
+[2] [3]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 118
+.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 118
+.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.138 \therefore
+                 L.C = (\frac{3}{30}) \times (\frac{1}{2})\degree = (\frac{1...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.141 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--141
+
+ []
+
+[4] (./pythontex-files-refractive_index/py_default_default_1.stdout
+Overfull \hbox (51.47853pt too wide) in paragraph at lines 5--22
+[]\OT1/cmr/m/n/14.4 [47.01860351 46.41513369 45.86531544 45.3603979 44.89377642
+
+ []
+
+
+Overfull \hbox (25.51201pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 44.46032214 44.05595883 43.677384 43.32187829 42.98717135
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 42.67134485 42.37276088 42.09000809 41.82186035 41.56724471
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 41.32521609 41.09493709 40.87566181 40.66672255 40.46751898
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 40.27750911 40.09620181 39.92315046 39.75794763 39.60022054
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 39.44962716 39.30585287 39.16860753 39.03762307 38.91265117
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 38.79346144 38.67983972 38.57158654 38.46851586 38.37045389
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 38.27723803 38.18871596 38.10474482 38.02519042 37.94992661
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 37.87883465 37.81180268 37.74872518 37.68950259 37.63404082
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 37.58225094 37.53404878 37.48935468 37.44809315 37.41019262
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 37.37558521 37.34420649 37.31599529 37.29089351 37.26884591
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 37.24979999 37.23370581 37.22051587 37.21018497 37.20267007
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 37.19793021 37.19592639 37.19662145 37.19998001 37.20596837
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 37.21455443 37.22570761 37.23939877 37.25560019 37.27428542
+ []
+
+
+Overfull \hbox (32.56192pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 37.29542933 37.31900794 37.34499846 37.3733792 37.40412951
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 37.43722976 37.47266131 37.51040641 37.55044824 37.59277082
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 37.63735899 37.68419839 37.73327541 37.78457718 37.83809152
+ []
+
+
+Overfull \hbox (39.61183pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 37.89380694 37.95171259 38.01179826 38.07405433 38.13847176
+ []
+
+
+Overfull \hbox (25.51201pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 38.20504209 38.27375738 38.34461022 38.4175937 38.4927014
+ []
+
+
+Overfull \hbox (43.52844pt too wide) in paragraph at lines 5--22
+\OT1/cmr/m/n/14.4 38.56992735 38.64926607 38.73071246 38.81426189 38.89991012] 
+
+ []
+
+[5]
+Overfull \hbox (4.16579pt too wide) in paragraph at lines 23--25
+[]\OT1/cmr/m/n/14.4 Coordinates of min-ima of the graph (x,y): [48.48484848
+ []
+
+)
+Overfull \hbox (61.44016pt too wide) in paragraph at lines 26--231
+[]\OT1/cmr/m/n/14.4 Angle of min-i-mum de-vi-a-tion from Graph is: 37.195926387
+124224 
+ []
+
+<Figure.png, id=27, 537.6888pt x 510.2262pt>
+File: Figure.png Graphic file (type png)
+<use Figure.png>
+Package pdftex.def Info: Figure.png  used on input line 232.
+(pdftex.def)             Requested size: 341.445pt x 341.43715pt.
+
+Overfull \hbox (11.445pt too wide) in paragraph at lines 232--233
+[][] 
+ []
+
+[6]
+
+! Package inputenc Error: Unicode character ️ (U+FE0F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.238 {\Large ️
+                 Minimum angle of deviation is 37\degree11'45''}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[7 <./Figure.png>]
+Overfull \hbox (5.08713pt too wide) in paragraph at lines 249--250
+[]\OT1/cmr/m/n/14.4 He did Python pro-gram-ming and La-
+ []
+
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) [8]
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+293.
+
+(/usr/share/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [9]
+! Undefined control sequence.
+l.304     \url
+              {https://vlab.amrita.edu/}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[10] (./refractive_index.aux) ) 
+Here is how much of TeX's memory you used:
+ 7887 strings out of 478994
+ 127646 string characters out of 5864751
+ 864704 words of memory out of 5000000
+ 25271 multiletter control sequences out of 15000+600000
+ 409129 words of font info for 49 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 83i,8n,88p,360b,1812s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/
+cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
+super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0800.
+pfb>
+Output written on refractive_index.pdf (10 pages, 168294 bytes).
+PDF statistics:
+ 89 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

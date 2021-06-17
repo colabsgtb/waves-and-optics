@@ -1,0 +1,44 @@
+\documentclass[pstricks]{standalone}
+\usepackage{pst-solides3d}
+
+\begin{document}
+
+\begin{pspicture}[solidmemory](-4,-2)(4,4)
+\psset{viewpoint=50 170 20 rtp2xyz,Decran=70,lightsrc=viewpoint}
+\axesIIID(7,2.5,2.5)
+\psSolid[object=plan,definition=equation,args={[-1 0 1 0]},base=-1 2 -2 2,
+  ngrid=40 40,fillcolor=red!30,linewidth=0pt,name=B1,action=none]
+\psSolid[object=sphere,r=1,fillcolor=cyan,ngrid=72 72,name=C1,action=none](1,0,0)
+\psSolid[object=fusion,linewidth=0.01pt,base=B1_s C1,
+	linewidth=0.01pt,]
+\defFunction[algebraic]{Circle}(t){0.5+0.5*cos(t)}{1/sqrt(2)*sin(t)}{0.5+0.5*cos(t)}
+\psSolid[object=courbe,r=0,function=Circle,range=0 6.3,linecolor=red,linewidth=1.5pt]
+\end{pspicture}
+
+
+\begin{pspicture}[solidmemory](-4,-3)(2,4)
+\psset{viewpoint=50 100 10 rtp2xyz,Decran=70,lightsrc=-20 50 20}
+\axesIIID(2.5,6,2)
+\psSolid[object=plan,definition=equation,args={[-1 0 1 0]},base=-1 2 -2 2,
+  ngrid=40 40,fillcolor=red!30,linewidth=0pt,name=B1,action=none]
+\psSolid[object=sphere,r=1,fillcolor=cyan,ngrid=72 72,name=C1,action=none](1,0,0)
+\psSolid[object=fusion,linewidth=0.01pt,base=B1_s C1,
+	linewidth=0.01pt,]
+\defFunction[algebraic]{Circle}(t){0.5+0.5*cos(t)}{1/sqrt(2)*sin(t)}{0.5+0.5*cos(t)}
+\psSolid[object=courbe,r=0,function=Circle,range=0 3.14,linecolor=red,linewidth=1.5pt]
+\end{pspicture}
+
+\begin{pspicture}[solidmemory](-4,-3)(2,4)
+\psset{viewpoint=50 90 10 rtp2xyz,Decran=70,lightsrc=-50 20 20}
+\axesIIID(2.5,6,2)
+\psSolid[object=plan,definition=equation,args={[-1 0 1 0]},base=-1 2 -2 2,
+  ngrid=40 40,fillcolor=red!30,linewidth=0pt,name=B1,action=none]
+\psSolid[object=sphere,r=1,fillcolor=cyan,ngrid=72 72,name=C1,action=none](1,0,0)
+\psSolid[object=fusion,linewidth=0.01pt,base=B1_s C1,
+	linewidth=0.01pt,]
+\defFunction[algebraic]{Circle}(t){0.5+0.5*cos(t)}{1/sqrt(2)*sin(t)}{0.5+0.5*cos(t)}
+\psSolid[object=courbe,r=0,function=Circle,range=0 3.14,linecolor=red,linewidth=1.5pt]
+\end{pspicture}
+
+\end{document}
+
